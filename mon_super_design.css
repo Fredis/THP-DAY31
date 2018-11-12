@@ -25,6 +25,11 @@ body
 	font-family: 'Lobster', cursive;
 }
 
+#site-name:hover
+{
+	font-family: 'Spicy Rice', cursive;
+}
+
 #user-info
 {
 	width: 200px;
@@ -146,6 +151,11 @@ section
 	height: 500px;
 	border-top: 1px solid lightgrey;
 	border-bottom: 1px solid lightgrey;
+}
+
+#meet-content:hover
+{
+	background-image: url("images/meet_image_two.jpg");
 }
 
 #meet-card
