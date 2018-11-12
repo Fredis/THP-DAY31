@@ -1,0 +1,155 @@
+body
+{
+	margin: 0 0 0 0;
+	background-color: #f5efe3;
+	color: #4D4D4D;
+}
+
+#header
+{
+	border-bottom: 1px solid lightgrey;
+	width: 100%;
+	height: auto;
+	background-color: #e6e7e5;
+	display: flex;
+	justify-content: space-between;
+}
+
+#site-name
+{
+	width: auto;
+	height: auto;
+	margin-left: 30px;
+	padding-top: 15px;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+}
+
+#user-info
+{
+	width: 200px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#user-info-avatar
+{
+	width: 50px;
+	margin-left: 50px;
+	padding-top: 3px;
+}
+
+#user-info-avatar > img
+{
+	width: 85%;
+	border-radius: 90%;
+	background-color: #f7d3ba;
+}
+
+#user-info-name
+{
+	width: auto;
+	margin-right: 50px;
+	padding-top: 20px;
+	font-family: 'Niramit', cursive;
+	font-size: 20px;
+}
+
+
+#nav-bar-buttons
+{
+	width: 600px;
+	margin-right: 750px;
+	display: flex;
+	font-family: 'Niramit', cursive;
+	font-size: 25px;
+}
+
+.buttons
+{
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+
+}
+
+.buttons:hover
+{
+	background-color: #f7d3ba;
+	cursor: pointer;
+}
+
+.buttons > a
+{
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+.buttons > a:hover
+{
+	color: #BFC0C0;
+	text-decoration : none;
+}
+
+section
+{
+	font-family: 'Montserrat', cursive;
+}
+
+#page_title
+{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#main_content
+{
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #e6e7e5;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.content_element:nth-child(1)
+{
+	flex: 2;
+	text-align: center;
+}
+
+.content_element:nth-child(2)
+{
+	flex: 1.8;
+	line-height: 300%;
+	padding: 0px 150px 10px 10px;
+}
+
+.content_element:nth-child(1) > img
+{
+	width: 70%;
+	border-radius: 5%;
+}
+
+#footer
+{
+	width: 100%;
+	height: 60px;
+	background-color: #a6aa9c;
+	position: absolute;
+	bottom: 0px;
+	border-top: 1px solid lightgrey;
+}
+
+#footer img
+{
+	width: 2%;
+	margin-top: 10px;
+	margin-left: 15px;
+}
